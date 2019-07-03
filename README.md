@@ -1,5 +1,5 @@
 # slothy
-Open source information gathering tool from publicly available sites against a target domain
+ Information gathering tool from publicly available sites against a target domain
 
 Concept taken from a tool # Goohak by 1N3
 
