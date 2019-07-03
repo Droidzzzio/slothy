@@ -7,6 +7,6 @@ Note : pip install pyfiglet
 
 Install:
 
-*git clone https://github.com/Droidzzzio/slothy/
-*cd slothy
+* git clone https://github.com/Droidzzzio/slothy/
+* cd slothy
 * python slothy.py domain.com
