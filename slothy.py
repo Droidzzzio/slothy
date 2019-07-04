@@ -46,31 +46,31 @@ wb.open_new_tab("https://findsubdomains.com/subdomains-of/" +domain)
 
  #find subdomains through dorking
 
-wb.open_new_tab("https://www.google.ca/search?q=site:*." +domain)
+wb.open_new_tab("https://www.google.com/search?q=site:*." +domain)
 
-wb.open_new_tab("https://www.google.ca/search?q=site:*.*." +domain)
+wb.open_new_tab("https://www.google.com/search?q=site:*.*." +domain)
 
  #sql dorks
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+username+OR+password+OR+login+OR+root+OR+admin")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+username+OR+password+OR+login+OR+root+OR+admin")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+inurl:shell+OR+inurl:backdoor+OR+inurl:wso+OR+inurl:cmd+OR+shadow+OR+passwd+OR+boot.ini+OR+inurl:backdoor")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+inurl:shell+OR+inurl:backdoor+OR+inurl:wso+OR+inurl:cmd+OR+shadow+OR+passwd+OR+boot.ini+OR+inurl:backdoor")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+inurl:readme+OR+inurl:license+OR+inurl:install+OR+inurl:setup+OR+inurl:config")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+inurl:readme+OR+inurl:license+OR+inurl:install+OR+inurl:setup+OR+inurl:config")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+inurl:wp-+OR+inurl:plugin+OR+inurl:upload+OR+inurl:download")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+inurl:wp-+OR+inurl:plugin+OR+inurl:upload+OR+inurl:download")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+inurl:redir+OR+inurl:url+OR+inurl:redirect+OR+inurl:return+OR+inurl:src=http+OR+inurl:r=http")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+inurl:redir+OR+inurl:url+OR+inurl:redirect+OR+inurl:return+OR+inurl:src=http+OR+inurl:r=http")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+ext:cgi+OR+ext:php+OR+ext:asp+OR+ext:aspx+OR+ext:jsp+OR+ext:jspx+OR+ext:swf+OR+ext:fla+OR+ext:xml")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+ext:cgi+OR+ext:php+OR+ext:asp+OR+ext:aspx+OR+ext:jsp+OR+ext:jspx+OR+ext:swf+OR+ext:fla+OR+ext:xml")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+ext:doc+OR+ext:docx+OR+ext:csv+OR+ext:pdf+OR+ext:txt+OR+ext:log+OR+ext:bak")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+ext:doc+OR+ext:docx+OR+ext:csv+OR+ext:pdf+OR+ext:txt+OR+ext:log+OR+ext:bak")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:" +domain+ "+ext:action+OR+struts")
+wb.open_new_tab("https://www.google.com/search?q=site:" +domain+ "+ext:action+OR+struts")
 
-wb.open_new_tab("https://www.google.ca/search?q=site:pastebin.com+" +domain)
+wb.open_new_tab("https://www.google.com/search?q=site:pastebin.com+" +domain)
 
-wb.open_new_tab("https://www.google.ca/search?q=site:linkedin.com+employees+" +domain)
+wb.open_new_tab("https://www.google.com/search?q=site:linkedin.com+employees+" +domain)
 
  
 
