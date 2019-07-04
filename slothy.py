@@ -42,6 +42,8 @@ wb.open_new_tab("https://www.punkspider.org/#searchkey=url&searchvalue=" +domain
 
 wb.open_new_tab("https://www.virustotal.com/gui/domain/" +domain+ "/relations")
 
+wb.open_new_tab("https://findsubdomains.com/subdomains-of/" +domain)
+
  #find subdomains through dorking
 
 wb.open_new_tab("https://www.google.ca/search?q=site:*." +domain)
