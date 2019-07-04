@@ -40,9 +40,17 @@ wb.open_new_tab("http://viewdns.info/reversewhois/?q=" +domain)
 
 wb.open_new_tab("https://www.punkspider.org/#searchkey=url&searchvalue=" +domain+ "&pagenumber=1&filterType=or")
 
+#Subdomain Enumeration
+
 wb.open_new_tab("https://www.virustotal.com/gui/domain/" +domain+ "/relations")
 
 wb.open_new_tab("https://findsubdomains.com/subdomains-of/" +domain)
+
+wb.open_new_tab("https://dns.bufferover.run/dns?q=" +domain)
+
+wb.open_new_tab("https://www.dnsdb.org/" +domain+ "/")
+
+wb.open_new_tab("http://api.hackertarget.com/hostsearch/?q=" +domain)
 
  #find subdomains through dorking
 
