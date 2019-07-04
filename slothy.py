@@ -40,6 +40,8 @@ wb.open_new_tab("http://viewdns.info/reversewhois/?q=" +domain)
 
 wb.open_new_tab("https://www.punkspider.org/#searchkey=url&searchvalue=" +domain+ "&pagenumber=1&filterType=or")
 
+wb.open_new_tab("https://www.virustotal.com/gui/domain/" +domain+ "/relations")
+
  #find subdomains through dorking
 
 wb.open_new_tab("https://www.google.ca/search?q=site:*." +domain)
